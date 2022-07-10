@@ -1,0 +1,33 @@
+comandos criando chaves ssh e token:
+
+ssh-keygen -t ed25519 -c email
+
+crinado commit
+
+git add * ou . :move todas as pastas da worktree
+git commit -m "FILE": criar commit
+git init: iniciar um repositorio
+ls -a: mostrar pastas ocultas
+git config --global user.email "email": fornece a configuração do seu email
+git config user.name: fornece seu nome
+status: mostra os startus da pasta
+mkdir: criar pastas
+mv FILE ./***: mover arquivos
+ls: lista arquivos
+cd ..: volta 1 nivel
+cd FILE: avança psata especifica
+echo > ****.md,txt: criar um arquivo
+
+====configuração do git/github e-mail nick=====
+
+git config --list: lista a configuração
+git config --global --unset user.name ou nickname:remover name
+git config --global --unset user.email:remoner email
+git config --global user.email "file":cadastrar email
+git config --global user.nickname ou name "file": cadatrar name
+
+==upload para o hub==
+git remote add  origin: adicionar endereço de origem
+git remote -v: listar as origens 
+git push origin master: upload 
+git pull origin master: puxar 
